@@ -69,7 +69,7 @@ async function callSampleApi(): Promise<void> {
 }
 
 function openHomepage(): void {
-  void bridge.app.openExternal({ url: 'https://github.com/Rouarn/ElectronTemplate' })
+  void bridge.app.openExternal({ url: 'https://github.com/Rouarn/electron-template' })
 }
 
 function confirmQuit(): void {

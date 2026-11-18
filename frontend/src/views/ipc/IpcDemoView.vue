@@ -126,7 +126,7 @@ function clearHistory(): void {
         <NButton
           size="small"
           :disabled="busy"
-          @click="run(t('ipc.openHomepage'), () => bridge.app.openExternal({ url: 'https://github.com/Rouarn/ElectronTemplate' }))"
+          @click="run(t('ipc.openHomepage'), () => bridge.app.openExternal({ url: 'https://github.com/Rouarn/electron-template' }))"
         >
           {{ t('ipc.openHomepage') }}
         </NButton>

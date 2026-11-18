@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Electron + Vue 3.5 + Vite+ 的桌面应用模板，主进程与渲染进程共享同一份类型化 IPC 契约。",
-  "homepage": "https://github.com/Rouarn/ElectronTemplate",
+  "homepage": "https://github.com/Rouarn/electron-template",
   "license": "UNLICENSED",
   "author": {
     "name": "woyuxiaji",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rouarn/ElectronTemplate.git"
+    "url": "https://github.com/Rouarn/electron-template.git"
   },
   "type": "module",
   "main": "dist-electron/main/index.cjs",
