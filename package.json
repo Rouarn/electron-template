@@ -31,6 +31,7 @@
     "pack": "pnpm run build && node scripts/dist.mjs --dir",
     "dist:mac": "pnpm run build && node scripts/dist.mjs --mac --x64 --arm64",
     "dist:win": "pnpm run build && node scripts/dist.mjs --win --x64",
+    "dist:win:portable": "pnpm run build && node scripts/dist.mjs --win portable --x64",
     "dist:linux": "pnpm run build && node scripts/dist.mjs --linux --x64",
     "dist:linux:arm64": "pnpm run build && node scripts/dist.mjs --linux --arm64",
     "install:cn": "node scripts/install.mjs",
